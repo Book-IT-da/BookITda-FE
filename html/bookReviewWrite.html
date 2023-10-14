@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <link>
+        <meta charset="UTF-8">
+        <title> 도서 리뷰 작성 </title>
+        <style>     
+            li a {
+                color: black;
+            } 
+            #top {
+                margin: 10px 0 15px 30px;
+            }        
+            #logo {
+                margin: 25px 30px;
+                text-align: center;
+            }
+            #menu1 {
+                height: 30px;
+                text-align: center;
+                padding-top: 10px;
+                border: solid 1px #000000; 
+            }
+            #menu1 li {
+                display: inline;
+            }
+            #comment_input {
+                font-size: 16px;
+                width: 325px;
+                padding: 10px;
+            }
+            .notSelectedPage {
+                margin: 0 30px 0 30px;
+            }
+            .selectedPage {
+                background-color: rgb(198, 218, 218);
+                margin: 0 30px 0 30px;   
+                font-weight: bold;
+            }
+            .book_box  {
+                border-collapse:collapse;
+                border-spacing:0;
+                margin: auto;
+                width: 50%;
+                height: 80%;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .book_box td{
+                border-color:black;
+                border-style:solid;
+                border-width:1px;
+                padding:10px 5px;
+                word-break:normal;
+            }
+            .book_box th{
+                border-color:black;
+                border-style:solid;
+                border-width:1px;
+                padding:10px 5px;
+            }
+            .book_multiline_review{
+                height: 100px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div>     
+                <div id="top">
+                    <a>마이페이지</a> | 
+                    <a>로그아웃</a>
+                </div>                       
+                <div id="logo">
+                    <a>책it다</a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div>
+                <ul id="menu1">
+                    <li class="notSelectedPage"><a>도서 검색</a></li>
+                    <li>|</li>
+                    <li class="selectedPage"><a href="./bookReview.html">도서 리뷰</a></li>
+                    <li>|</li>
+                    <li class="notSelectedPage"><a> Q&A </a></li>
+                </ul>
+            </div>    
+        </nav>
+        <main>
+            <div>
+                <form method="get" action="./bookReview.html">
+                    <div align="right">
+                        <input type="submit" value="올리기">
+                    </div>
+                    <table class="book_box">
+                        <tbody>
+                            <tr>
+                                <td class="tg-0pky">제목</td>
+                                <td class="tg-0lax">
+                                    <input type="text" placeholder="제목 검색">
+                                    <button>검색하기</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tg-0pky">별점</td>
+                                <td class="tg-0lax">☆☆☆☆☆</td>
+                            </tr>
+                            <tr>
+                                <td class="tg-0lax">난이도</td>
+                                <td class="tg-0lax">
+                                    <input type="radio" name="book_level">초급
+                                    <input type="radio" name="book_level">중급
+                                    <input type="radio" name="book_level">고급
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tg-0lax">독서 목적</td>
+                                <td class="tg-0lax">
+                                    <input type="text" placeholder="독서 목적을 작성해주세요">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tg-0lax">추천 대상</td>
+                                <td class="tg-0lax">
+                                    <input type="text" placeholder="추천 대상을 작성해주세요">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tg-0lax">키워드</td>
+                                <td class="tg-0lax">
+                                    <input type="text" placeholder="키워드를 작성해주세요">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tg-0lax">한줄평</td>
+                                <td class="tg-0lax">
+                                    <input type="text" placeholder="한줄평을 작성해주세요">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tg-0lax" colspan="2">상세리뷰</td>
+                            </tr>
+                            <tr>
+                                <td class="book_multiline_review" colspan="2">
+                                    <input type="text" placeholder="상세리뷰를 작성해주세요">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

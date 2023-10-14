@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.bigContainer {
+			width: 800px; 
+		    height: 650px; 
+		    position: relative; 
+		    margin-top:5%;
+			margin-left:20%;
+		    background-color: #f7e6ff;
+		    border-radius: 10%;
+		}
+		.question {
+			width: 500px;
+		 	position: absolute; 
+		    top: 5%; 
+		    left: 17%;
+            text-align: center;
+            /*border: 1px solid black;*/
+        }
+        .container {
+            width: 600px;
+            height: 50%;
+            position: absolute; /* 위치 지정을 위해 절대 위치(absolute positioning) 사용 */
+		    top: 30%; /* 바깥쪽 div의 세로 중앙에 위치하도록 설정 */
+		    left: 13%; /* 바깥쪽 div의 가로 중앙에 위치하도록 설정 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .book {
+        	width: 130px;
+            padding: 10px;
+            margin: 10px;
+            align-items: center;
+        }
+        .bookImg {
+        	width: 120px;
+            height: 150px;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 17px;
+            margin: 5px 0 0 0;
+        }
+        .author {
+            font-style: italic;
+            font-size: 13px;
+            margin: 0 0; /* 간격을 줄임 */
+        }
+        .grade {
+        	font-size: 7px;
+        	margin: 0 0; /* 간격을 줄임 */
+        }
+    </style>
+<meta charset="EUC-KR">
+<title>책 추천</title>
+</head>
+<body>
+	<div class = "bigContainer">
+		<h2 class="question">A님께 어울리는 책을 소개할게요</h2><br>
+		 <div class="container">
+		 	<table>
+		 		<tr>
+		 			<td> <div class="book">
+					        <img class="bookImg" src="../img/book1.jpg" alt="책1 표지 이미지">
+					        <h2 class="title">JAVA 마스터</h2>
+					        <p class="author">송미영</p>
+					        <p class="grade">★3.0/5.0</p>
+				    	</div>
+    				</td>
+		 			<td> <div class="book">
+					        <img class="bookImg" src="../img/book2.jpg" alt="책1 표지 이미지">
+					        <h2 class="title">JAVA의 정석</h2>
+					        <p class="author">남궁성</p>
+					        <p class="grade">★3.0/5.0</p>
+				    	</div>
+    				</td>
+		 			<td> <div class="book">
+					        <img class="bookImg" src="../img/book3.jpg" alt="책1 표지 이미지">
+					        <h2 class="title">Power JAVA</h2>
+					        <p class="author">천인국</p>
+					        <p class="grade">★3.0/5.0</p>
+				    	</div>
+    				</td>
+		 			<td> <div class="book">
+					        <img class="bookImg" src="../img/book2.jpg" alt="책1 표지 이미지">
+					        <h2 class="title">JAVA의 정석</h2>
+					        <p class="author">남궁성</p>
+					        <p class="grade">★3.0/5.0</p>
+				    	</div>
+    				</td>
+		 		</tr>
+		 		<tr>
+		 			<td> <div class="book">
+					        <img class="bookImg" src="../img/book1.jpg" alt="책1 표지 이미지">
+					        <h2 class="title">JAVA 마스터</h2>
+					        <p class="author">송미영</p>
+					        <p class="grade">★3.0/5.0</p>
+				    	</div>
+    				</td>
+		 			<td> <div class="book">
+					        <img class="bookImg" src="../img/book2.jpg" alt="책1 표지 이미지">
+					        <h2 class="title">JAVA의 정석</h2>
+					        <p class="author">남궁성</p>
+					        <p class="grade">★3.0/5.0</p>
+				    	</div>
+    				</td>
+		 			<td> <div class="book">
+					        <img class="bookImg" src="../img/book3.jpg" alt="책1 표지 이미지">
+					        <h2 class="title">Power JAVA</h2>
+					        <p class="author">천인국</p>
+					        <p class="grade">★3.0/5.0</p>
+				    	</div>
+    				</td>
+		 			<td> <div class="book">
+					        <img class="bookImg" src="../img/book1.jpg" alt="책1 표지 이미지">
+					        <h2 class="title">JAVA 마스터</h2>
+					        <p class="author">송미영</p>
+					        <p class="grade">★3.0/5.0</p>
+				    	</div>
+    				</td>
+		 		</tr>
+		 	</table>
+	    </div>
+	</div>
+</body>
+</html>

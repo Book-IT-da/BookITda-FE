@@ -1,0 +1,184 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>책 정보 열람</title>
+
+        <style>
+
+        table{
+            border: 0px;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        td{
+            width: 150px;
+        }
+
+        p{
+            font-size: 20px;
+            text-align: left;
+        }
+
+        #bookInfo{
+            border: 0px ;
+            text-align: center;
+            margin-left: 50px;
+        }
+
+        #book_cover{
+            width: 250px;
+            height: 300px;
+        }
+
+    
+
+        #bookInfo{
+            height: 150px;
+        }
+
+        #bookIndex{
+            height: 150px;
+        }
+
+        #writerInfo{
+            height: 150px;
+        }
+
+        #btn_bookInfo_modify{
+            width: 120px;
+            height: 50px;
+            background-color: yellow;
+        }
+
+        .bookreview_box  {
+            border-collapse:collapse;
+            border-spacing:0;
+            margin: auto;
+            width: 60%;
+            height: 225px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .bookreview_box td{
+            border-color:black;
+            border-style:solid;
+            border-width:1px;
+            padding:10px 5px;
+            word-break:normal;
+        }
+        .bookreview_box th{
+            border-color:black;
+            border-style:solid;
+            border-width:1px;
+        }
+        .bookreview_detail_btn{
+            float: right;
+        }        
+
+        </style>
+    </head>
+    <body>
+        
+        <div id="bookInfo">
+            <table>
+                <tr>
+                    <th rowspan="6"> <img id="book_cover" src="./img/book_cover.PNG"> </th>
+                    <td>ISBN</td>
+                </tr>
+
+                <tr>
+                    <td>제목</td>
+                </tr>
+
+                <tr>
+                    <td>저자</td>
+                </tr>
+
+                <tr>
+                    <td>출판사</td>
+                </tr>
+
+                <tr>
+                    <td>출판 날짜</td>
+                </tr>
+
+                <tr>
+                    <td> <img src="./img/search_star.PNG"> 평점</td>
+                </tr>
+            </table>
+
+            <hr>
+
+            <p>[책소개]</p>
+            <div id="bookInfo"></div>
+
+            <hr>
+
+            <p>[목차]</p>
+            <div id="bookIndex"></div>
+
+            <hr>
+
+            <p>[저자 소개]</p>
+            <div id="writerInfo"></div>
+
+           <hr>
+
+           <button type="button" id="btn_bookInfo_modify">도서 정보 변경</button>
+            <br>
+            <br>
+
+            <div>
+                <table class="bookreview_box">
+                    <tbody>
+                        <tr>
+                          <th>
+                            <button class="bookreview_detail_btn">상세보기</button>
+                          </th>
+                        </tr>
+                        <tr>
+                            <td>☆☆☆☆☆</td>
+                        </tr>
+                        <tr>
+                            <td>난이도</td>
+                        </tr>
+                        <tr>
+                            <td>키워드</td>
+                        </tr>
+                        <tr>
+                            <td>한줄평</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table class="bookreview_box">
+                    <tbody>
+                        <tr>
+                        <th>
+                            <button class="bookreview_detail_btn">상세보기</button>
+                        </th>
+                        </tr>
+                        <tr>
+                            <td>☆☆☆☆☆</td>
+                        </tr>
+                        <tr>
+                            <td>난이도</td>
+                        </tr>
+                        <tr>
+                            <td>키워드</td>
+                        </tr>
+                        <tr>
+                            <td>한줄평</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <br>
+        </div>
+        
+    </body>
+</html>

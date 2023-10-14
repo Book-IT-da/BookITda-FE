@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+        hr {
+            margin-top: 30px;
+            margin-bottom: 25px;
+            width: 580px;
+            height: 2px;
+            background-color: black;
+        }
+        td {
+            height: 55px;
+        }
+        td:nth-child(2n+1) {
+            width: 160px;
+        }
+        input {
+            width: 250px;
+            height: 30px;
+            border-radius: 3px;
+            border-width: 1px;
+            border-color: #CCCCCC;
+        }
+        input[type="button"] {
+            width: 80px;
+        }
+        input[type="submit"] {
+            margin-top: 50px;
+            width: 200px;
+            height: 50px;
+            border-width: 0px;
+            border-radius: 6px;
+            background-color: skyblue;
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>회원가입</h1>
+        <hr>
+        <table>
+            <form action="">
+                <tr>
+                    <td>아이디</td>
+                    <td>
+                        <input type="text" placeholder=" 아이디를 입력해주세요" required>
+                        <input type="button" value="중복확인">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>비밀번호</td>
+                    <td>
+                        <input type="password" placeholder=" 비밀번호를 입력해주세요" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>비밀번호 확인</td>
+                    <td><input type="password" placeholder=" 비밀번호를 한번 더 입력해주세요" required></td>
+                </tr>
+
+                <tr>
+                    <td>이름</td>
+                    <td><input type="text" placeholder="이름을 입력해주세요" required></td>
+                </tr>
+
+                <tr>
+                    <td>닉네임</td>
+                    <td><input type="text" placeholder="닉네임을 입력해주세요" required></td>
+                </tr>
+
+                <tr>
+                    <td>이메일</td>
+                    <td>
+                        <input type="email" placeholder="예: itbook@itbook.com" required>
+                        <!-- <select name="email" id="email">
+                            <option value="1">직접입력</option>
+                            <option value="2">naver.com</option>
+                            <option value="3">daum.net</option>
+                            <option value="4">gmail.com</option>
+                        </select> -->
+                        <input type="button" value="중복확인">
+                    </td>
+                </tr>
+            </form>
+        </table>
+        <input type="submit" value="가입하기">
+    </center>
+</body>
+</html>

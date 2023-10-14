@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A 게시판</title>
+    <style>
+        li {
+            list-style: none;
+        }
+        #menu {
+            margin-top: 30px;
+            width: 1000px;
+            height: 50px;
+            outline: 1px dotted black;
+            background-color: gray;
+        }
+        #menu ui li {
+            float: left;
+            width: 25%;
+            height: 100%;
+            line-height: 50px;
+            text-align: center;
+        }
+        form {
+            margin-top: 50px;
+            margin-left: 850px;
+        }
+        table {
+            width: 1200px;
+        }
+        th, td {
+            height: 50px;
+            text-align: center;
+        }
+        th {
+            border-bottom: 1.5px solid black;
+        }
+        a {
+            text-decoration-line: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Q&A 게시판</h1>
+        <hr>
+        <div id="menu">
+            <ui>
+                <li><a href="#"><span>전체</span></a></li>
+                <li><a href="#"><span>유형1</span></a></li>
+                <li><a href="#"><span>유형2</span></a></li>
+                <li><a href="#"><span>유형3</span></a></li>
+            </ui>
+        </div>
+        <!-- <button type="button" onclick="" id="btn">글쓰기</button> -->
+        <form action="">
+            <label for="">
+                <select name="type" id="type">
+                    <option value="title" selected>제목</option>
+                    <option value="writer">작성자</option>
+                    <div>
+                        <input type="text" placeholder="검색어를 입력하세요">
+                        <button type="button">검색</button>
+                    </div>
+                </select>
+            </label>
+        </form>
+        <hr>
+        <table>
+            <tr>
+                <th>번호</th>
+                <th>제목</th>
+                <th>작성자</th>
+                <th>작성일</th>
+                <th>유형</th>
+                <th>조회수</th>
+            </tr>
+            <tr>
+                <td>공지</td>
+                <td>질문 글 작성 TIP</td>
+                <td>관리자</td>
+                <td>2023-9-20</td>
+                <td>전체</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>초보 개발자가 읽을 만할 책이 있을까요?</td>
+                <td>ooo</td>
+                <td>2023-10-20</td>
+                <td>유형2</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>비전공자를 위한 책이 있을까요?</td>
+                <td>ㅋㅋㅋ</td>
+                <td>2023-10-9</td>
+                <td>유형1</td>
+                <td>12</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>

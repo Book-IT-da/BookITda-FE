@@ -1,0 +1,93 @@
+<!-- 회원이 작성한 질문 글 및 답변보는 페이지 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A 게시판</title>
+    <style>
+        table {
+            margin-top: 30px;
+            width: 1000px;
+        }
+        td {
+            height: 50px;
+            border-bottom: 1px solid #444444;
+            border-left: 1px solid #444444;
+        }
+        td:first-child {
+            border-left: none;
+        }
+        button {
+            margin-top: 30px;
+            width: 100px;
+            height: 50px;
+            border: none;
+            border-radius: 6px;
+            background-color: skyblue;
+            font-size: 25px;
+            color: white;
+        }
+        #title {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>책it다</h1>
+        <hr>
+
+        <!-- 질문 글 -->
+        <table>
+            <tr>
+                <td colspan="3">질문내용</td>
+            </tr>
+            <tr>
+                <td id="title" colspan="3">제목</td>
+            </tr>
+            <tr>
+                <td colspan="3">분류:</td>
+            </tr>
+            <tr>
+                <td>닉네임:</td>
+                <td>등록일:</td>
+                <td>조회수:</td>
+            </tr>
+            <tr>
+                <td colspan="3">글 내용</td>
+            </tr>
+        </table>
+
+        <button type="button" onclick="">목록</button>
+
+        <!-- 답변 글1 -->
+        <table>
+            <tr>
+                <td colspan="2">답변내용</td>
+            </tr>
+            <tr>
+                <td>닉네임:</td>
+                <td>등록일:</td>
+            </tr>
+            <tr>
+                <td colspan="2">글 내용</td>
+            </tr>
+        </table>
+
+        <!-- 답변 글2 -->
+        <table>
+            <tr>
+                <td colspan="2">답변내용</td>
+            </tr>
+            <tr>
+                <td>닉네임:</td>
+                <td>등록일:</td>
+            </tr>
+            <tr>
+                <td colspan="2">글 내용</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
