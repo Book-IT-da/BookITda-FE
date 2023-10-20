@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>관심사 폼</title>
+    <style>
+        hr {
+            margin-top: 30px;
+            margin-bottom: 25px;
+            width: 580px;
+            height: 2px;
+            background-color: black;
+        }
+        tr, td {
+        	   border: 1px solid black;
+        
+        }
+        .td1 {
+        	width: 100px;
+        }
+        td {
+       	 	width: 500px;
+            height: 55px;
+            padding: 30px 0 30px 0;
+            font-size: 20px;
+            text-align: center;
+        }
+        input {
+        	width: 15px;
+        	height: 15px;
+            border-radius: 3px;
+            border-width: 1px;
+            border-color: #CCCCCC;
+        }
+        .input-container input {
+		    margin-right: 10px; 
+		}
+        input[type="submit"] {
+            margin-top: 30px;
+            width: 100px;
+            height: 30px;
+            border-width: 0px;
+            border-radius: 6px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+	<center>
+        <h1>관심사 설정</h1>
+        <hr>
+        <table>
+            <form>
+                <tr>
+                    <td class="td1">관심 분야</td>
+                    <td class="td2">
+					    <input type="checkbox" name="interestCategory" value="programming">프로그래밍
+					    <input type="checkbox" name="interestCategory" value="os">OS
+					    <input type="checkbox" name="interestCategory" value="network">네트워크
+					    <input type="checkbox" name="interestCategory" value="hacking">해킹
+					    <br><br>
+					    <input type="checkbox" name="interestCategory" value="protection">보안
+					    <input type="checkbox" name="interestCategory" value="mobile">모바일
+					    <input type="checkbox" name="interestCategory" value="db">DB
+					    <input type="checkbox" name="interestCategory" value="systemServer">시스템 서버
+					    <br><br>
+					    <input type="checkbox" name="interestCategory" value="computerEngineering">컴퓨터 공학
+					    <input type="checkbox" name="interestCategory" value="game">게임
+					    <input type="checkbox" name="interestCategory"value="web">WEB
+					    <input type="checkbox" name="interestCategory" value="graphic">그래픽
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">관심 언어</td>
+                    <td class="td2">
+					    <input type="checkbox" name="interestLang" value="python">python
+					    <input type="checkbox" name="interestLang" value="os">java
+					    <input type="checkbox" name="interestLang" value="network">c
+					    <input type="checkbox" name="interestLang" value="hacking">c++
+					    <br><br>
+					    <input type="checkbox" name="interestLang" value="protection">kotlin
+					    <input type="checkbox" name="interestLang" value="lua">lua
+					    <input type="checkbox" name="interestLang" value="db">css
+					    <input type="checkbox" name="interestLang" value="systemServer">javascript
+					    <br><br>
+					    <input type="checkbox" name="interestLang" value="swift">swift
+					    <input type="checkbox" name="interestLang" value="c#">c#
+					    <input type="checkbox" name="interestLang" value="nodeJs">node.js
+					    <input type="checkbox" name="interestLang" value="typeScript">typeScript
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">it 수준</td>
+                    <td class="td2">
+					    <input type="radio" name="itLevel" value="level1"> 초보자
+					    <input type="radio" name="itLevel" value="level2"> 중급자
+					    <input type="radio" name="itLevel" value="level3"> 상급자
+                    </td>
+                </tr>
+            </form>
+        </table>
+        <div class="button_container">
+		    <input type="submit" value="설정 완료">
+		    <input type="submit" value="건너뛰기">
+	  </div>
+	</center>
+</body>
+</html>
