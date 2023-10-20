@@ -15,3 +15,9 @@
   <li>[도서추천 메인페이지] : RecommBook.html</li>
   <li>[사용자 관심사 폼] : userInterestForm.html</li>
 </ul>
+
+[회원관리] - 김은수 
+<ul>
+  <li>[로그인] : login.html</li>
+  <li>[회원가입] : signup.html</li>
+</ul>
