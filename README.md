@@ -21,3 +21,9 @@
   <li>[로그인] : login.html</li>
   <li>[회원가입] : signup.html</li>
 </ul>
+
+ [검색] - 김은진
+ <ul>
+   <li>[검색창] : search.html</li>
+   <li>[검색 후 도서 리스트] : show_bookList.html</li>
+ </ul>
