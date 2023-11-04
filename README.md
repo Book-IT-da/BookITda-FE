@@ -20,6 +20,19 @@
 <ul>
   <li>[로그인] : login.html</li>
   <li>[회원가입] : signup.html</li>
+  <li>[마이페이지] : mypage.html, mypage_frame{1, 2, 3}.html</li>
+</ul>
+
+[마이페이지] - 김은수 
+<ul>
+  <li>[마이페이지] : mypage.html, mypage_frame{1, 2, 3}.html</li>
+</ul>
+
+[Q&A게시판] - 김은수
+<ul>
+  <li>[Q&A게시판 메인페이지] : qna.html</li>
+  <li>[질문글 작성] : askQuestion.html</li>
+  <li>[질문글 보기] : view.html</li>
 </ul>
 
  [검색] - 김은진
