@@ -40,3 +40,10 @@
    <li>[검색창] : search.html</li>
    <li>[검색 후 도서 리스트] : show_bookList.html</li>
  </ul>
+
+ [관리자]
+ <ul>
+   <li>[리뷰 목록 보기] : adminReview.html</li>
+   <li>[리뷰 상세 보기] : adminReviewInfo.html</li>
+ </ul>
+

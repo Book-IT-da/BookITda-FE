@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <link>
+        <meta charset="UTF-8">
+        <title> 도서 리뷰 </title>
+        <style>     
+            li a {
+                color: black;
+            } 
+            #top {
+                margin: 10px 0 15px 30px;
+            }        
+            #logo {
+                margin: 25px 30px;
+                text-align: center;
+            }
+            #menu1 {
+                height: 30px;
+                text-align: center;
+                padding-top: 10px;
+                border: solid 1px #000000; 
+            }
+            #menu1 li {
+                display: inline;
+            }
+            #search_input {
+                font-size: 16px;
+                width: 325px;
+                padding: 10px;
+                border: 0.5px;
+            }
+            #search_button {
+                width: 100px;
+                height: 35px;
+                background: #1b5ac2;
+                outline: none;
+                color: #ffffff;
+            }
+            .notSelectedPage {
+                margin: 0 30px 0 30px;
+            }
+            .selectedPage {
+                background-color: rgb(198, 218, 218);
+                margin: 0 30px 0 30px;   
+                font-weight: bold;
+            }
+            .book_box  {
+                border-collapse:collapse;
+                border-spacing:0;
+                margin: auto;
+                width: 60%;
+                height: 225px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .book_box td{
+                border-color:black;
+                border-style:solid;
+                border-width:1px;
+                padding:10px 5px;
+                word-break:normal;
+            }
+            .book_box th{
+                border-color:black;
+                border-style:solid;
+                border-width:1px;
+                padding:10px 5px;
+            }
+            .tg .tg-0pky{
+                border-color:inherit;
+                text-align:left;
+                vertical-align:top
+            }
+            .book_pic{
+                width: 20%;
+            }
+            .book_title{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .book_author{
+                font-size: 16px;
+            }
+            .book_stars{
+                font-size: 16px;
+            }
+            .book_oneline_review{
+                font-size: 16px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <div>
+                <button>책</button>
+                <button>회원</button>
+                <button>리뷰</button>
+            </div>
+            <div>
+                <table class="book_box">
+                    <tbody>
+                      <tr>
+                        <td>ID</td>
+                        <td>TITLE</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>운영체제</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>데이터베이스프로그래밍</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>정보</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>컴퓨터</td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>소프트웨어 공학 이론과 실제</td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>점프 투 파이썬</td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>웹프로그래밍</td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>점프 투 자바</td>
+                      </tr>
+                    </tbody>
+                    </table>
+            </div>
+            </div>
+            <div align="center">
+                <hr/>
+                <button> &lt; </button>
+                <a>1</a>
+                <a>2</a>
+                <a>3</a>
+                <button> &gt; </button>
+            </div>
+        </main>
+    </body>
+
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <link>
+        <meta charset="UTF-8">
+        <title> 도서 리뷰 </title>
+        <style>     
+            li a {
+                color: black;
+            } 
+            #top {
+                margin: 10px 0 15px 30px;
+            }        
+            #logo {
+                margin: 25px 30px;
+                text-align: center;
+            }
+            #menu1 {
+                height: 30px;
+                text-align: center;
+                padding-top: 10px;
+                border: solid 1px #000000; 
+            }
+            #menu1 li {
+                display: inline;
+            }
+            #search_input {
+                font-size: 16px;
+                width: 325px;
+                padding: 10px;
+                border: 0.5px;
+            }
+            #search_button {
+                width: 100px;
+                height: 35px;
+                background: #1b5ac2;
+                outline: none;
+                color: #ffffff;
+            }
+            .notSelectedPage {
+                margin: 0 30px 0 30px;
+            }
+            .selectedPage {
+                background-color: rgb(198, 218, 218);
+                margin: 0 30px 0 30px;   
+                font-weight: bold;
+            }
+            .book_box  {
+                border-collapse:collapse;
+                border-spacing:0;
+                margin: auto;
+                width: 60%;
+                height: 225px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .book_box td{
+                border-color:black;
+                border-style:solid;
+                border-width:1px;
+                padding:10px 5px;
+                word-break:normal;
+            }
+            .book_box th{
+                border-color:black;
+                border-style:solid;
+                border-width:1px;
+                padding:10px 5px;
+            }
+            .tg .tg-0pky{
+                border-color:inherit;
+                text-align:left;
+                vertical-align:top
+            }
+            .book_pic{
+                width: 20%;
+            }
+            .book_title{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .book_author{
+                font-size: 16px;
+            }
+            .book_stars{
+                font-size: 16px;
+            }
+            .book_oneline_review{
+                font-size: 16px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <br>
+            <div>
+                <button>돌아가기</button>
+            </div>
+            <div align="right">
+                <button>리뷰 삭제</button>
+            </div>
+            <div align="center">
+                <h3>리뷰</h3>
+                <table class="book_box">
+                    <tbody>
+                      <tr>
+                        <td>제목</td>
+                        <td>JSP</td>
+                      </tr>
+                      <tr>
+                        <td>작성자</td>
+                        <td>솜솜</td>
+                      </tr>
+                      <tr>
+                        <td>저자</td>
+                        <td>홍길동</td>
+                      </tr>
+                      <tr>
+                        <td>출판사</td>
+                        <td>한빛</td>
+                      </tr>
+                      <tr>
+                        <td>별점</td>
+                        <td>3</td>
+                      </tr>
+                      <tr>
+                        <td>난이도</td>
+                        <td>고급</td>
+                      </tr>
+                      <tr>
+                        <td>도서목적</td>
+                        <td>똑똑해지려고</td>
+                      </tr>
+                      <tr>
+                        <td>추천대상</td>
+                        <td>웹 개발 희망자</td>
+                      </tr>
+                      <tr>
+                        <td>키워드</td>
+                        <td>DB</td>
+                      </tr>
+                      <tr>
+                        <td>한줄평</td>
+                        <td>도움이 많이 됩니다</td>
+                      </tr>
+                      <tr>
+                        <td>상세 리뷰</td>
+                        <td>많이 어렵긴 하지만 좋아요. 도움이 많이 되었어요 근데 입문자가 도전하기에는 힘듭니다 어쩌구 쏼라쏼라</td>
+                      </tr>
+                    </tbody>
+                    </table>
+            </div>
+            </br>
+            </br>
+            </br>
+            <div align="center">
+                <h3>리뷰 댓글</h3>
+                <table class="book_box">
+                    <tbody>
+                      <tr>
+                        <td>닉네임</td>
+                        <td>댓글 내용</td>
+                        <td>삭제</td>
+                      </tr>
+                      <tr>
+                        <td>솜이솜</td>
+                        <td>또 다른 추천 책 있나요</td>
+                        <td><button>삭제</button></td>
+                      </tr>
+                      <tr>
+                        <td>동덕</td>
+                        <td>많은 도움이 되었어요</td>
+                        <td><button>삭제</button></td>
+                      </tr>
+                      <tr>
+                        <td>양갱</td>
+                        <td>헉 제겐 쉬웠는데</td>
+                        <td><button>삭제</button></td>
+                      </tr>
+                    </tbody>
+                    </table>
+            </div>
+            </div>
+        </main>
+    </body>
+
+</html>
