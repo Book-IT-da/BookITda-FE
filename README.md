@@ -35,15 +35,25 @@
   <li>[질문글 보기] : view.html</li>
 </ul>
 
- [검색] - 김은진
+ [검색 및 메인 페이지] - 김은진
  <ul>
    <li>[검색창] : search.html</li>
-   <li>[검색 후 도서 리스트] : show_bookList.html</li>
+   <li>[검색 후 도서 리스트] : searchList.html</li>
+   <li>[메인페이지(랜덤 도서)] : randomBooks</li>
+ </ul>
+
+ [도서 정보]
+  <ul>
+   <li>[도서 정보] : bookInfo.html</li>
  </ul>
 
  [관리자]
  <ul>
    <li>[리뷰 목록 보기] : adminReview.html</li>
    <li>[리뷰 상세 보기] : adminReviewInfo.html</li>
+   <li>[도서 추가] : admin_addBook.html</li>
+   <li>[도서 수정/삭제] : admin_bookInfo.html</li>
+   <li>[도서 목록 보기] : admin_bookList.html</li>
+   <li>[카테고리 목록 및 추가/수정/삭제] : admin_category.html</li>
  </ul>
 
