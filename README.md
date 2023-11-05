@@ -12,8 +12,8 @@
 
 [도서추천] - 김유진 
 <ul>
-  <li>[도서추천 메인페이지] : RecommBook.html</li>
-  <li>[사용자 관심사 폼] : userInterestForm.html</li>
+  <li>[도서추천 메인페이지] : RecommendBookMain.html, recommBook_exist.html, recommBook_not_exist.html</li>
+  <li>[사용자 관심사 폼] : interestForm.html</li>
 </ul>
 
 [회원관리] - 김은수 
