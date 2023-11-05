@@ -39,7 +39,7 @@
  <ul>
    <li>[검색창] : search.html</li>
    <li>[검색 후 도서 리스트] : searchList.html</li>
-   <li>[메인페이지(랜덤 도서)] : randomBooks</li>
+   <li>[메인페이지(랜덤 도서)] : randomBooks.html</li>
  </ul>
 
  [도서 정보]
