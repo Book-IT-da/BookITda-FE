@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>검색 후 결과 화면(도서 리스트)</title>
+
+        <style>
+
+           #showListCate{
+                width: 70px;
+                height: 40px;
+            }
+
+            .btnMoveToTop{
+                position: fixed;
+                width: 30px;
+                height: 50px;
+                background-image: url(./img/moveToTop.PNG);
+            }
+
+            #bookInfoList{
+                border: 0px;
+                text-align: center;
+            }
+            
+            .book{
+                border: 1px solid;
+                width: 240px;
+                height: 250px;
+                margin: 10px;
+                padding: 7px;
+                display: inline-block;
+            }
+
+            #book_cover{
+                width: 130px;
+                height: 130px;
+            }
+
+            
+            figcaption{
+                text-align: left;
+            }
+
+            .starScore{
+                color : red;
+            }
+
+        </style>
+    </head>
+
+
+    <body>
+        
+        &nbsp; &nbsp;&nbsp; &nbsp;
+        <form>
+            <input type="checkbox" name="showCheck" value="book_title" checked>제목
+            <input type="checkbox" name="showCheck" value="author">저자
+            <input type="checkbox" name="showCheck" value="publisher"> 출판사
+            <input type="checkbox" name="showCheck" value="keyword" >키워드 &nbsp; &nbsp;
+            <button type="button" id="checkSetting">설정</button> 
+        </form>
+        <br>
+
+        <div id="bookInfoList">
+        
+            <figure class="book">
+                <img id="book_cover" src="./img/book_cover.PNG">
+                <figcaption>
+                    <p>[ 제목 ]</p>
+                    <p>[ 저자 ]   &nbsp; &lt; 출판사 &gt;</p>
+                    <p class="starScore"> <img src="./img/search_star.PNG"> 평점</p>
+                </figcaption>
+            </figure>
+
+            <figure class="book">
+                <img id="book_cover" src="./img/book_cover.PNG">
+                <figcaption>
+                    <p>[ 제목 ]</p>
+                    <p>[ 저자 ]   &nbsp; &lt; 출판사 &gt;</p>
+                    <p class="starScore"> <img src="./img/search_star.PNG"> 평점</p>
+                </figcaption>
+            </figure>
+
+            <figure class="book">
+                <img id="book_cover" src="./img/book_cover.PNG">
+                <figcaption>
+                    <p>[ 제목 ]</p>
+                    <p>[ 저자 ]   &nbsp; &lt; 출판사 &gt;</p>
+                    <p class="starScore"> <img src="./img/search_star.PNG"> 평점</p>
+                </figcaption>
+            </figure>
+
+            <figure class="book">
+                <img id="book_cover" src="./img/book_cover.PNG">
+                <figcaption>
+                    <p>[ 제목 ]</p>
+                    <p>[ 저자 ]   &nbsp; &lt; 출판사 &gt;</p>
+                    <p class="starScore"> <img src="./img/search_star.PNG"> 평점</p>
+                </figcaption>
+            </figure>
+
+            <figure class="book">
+                <img id="book_cover" src="./img/book_cover.PNG">
+                <figcaption>
+                    <p>[ 제목 ]</p>
+                    <p>[ 저자 ]   &nbsp; &lt; 출판사 &gt;</p>
+                    <p class="starScore"> <img src="./img/search_star.PNG"> 평점</p>
+                </figcaption>
+            </figure>
+
+            <figure class="book">
+                <img id="book_cover" src="./img/book_cover.PNG">
+                <figcaption>
+                    <p>[ 제목 ]</p>
+                    <p>[ 저자 ]   &nbsp; &lt; 출판사 &gt;</p>
+                    <p class="starScore"> <img src="./img/search_star.PNG"> 평점</p>
+                </figcaption>
+            </figure>
+
+
+        
+        </div>
+    
+       
+
+        <div class="btnMoveToTop"/>
+        
+        
+    </body>
+</html>
