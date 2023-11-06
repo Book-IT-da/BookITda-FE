@@ -55,5 +55,10 @@
    <li>[도서 수정/삭제] : admin_bookInfo.html</li>
    <li>[도서 목록 보기] : admin_bookList.html</li>
    <li>[카테고리 목록 및 추가/수정/삭제] : admin_category.html</li>
+   <li>[회원 목록 보기] : adminMember.html</li>
+   <li>[회원 상세 보기] : adminMemberInfo.html</li>
+   <li>[회원 수정] : adminMemberUpdate.html</li>
+   <li>[Q&A 게시판 질문 글 보기] : adminQuestion.html</li>
+    <li>[Q&A 게시판 질문 글 상세 보기 (댓글 포함)] : adminQuestionInfo.html</li>
  </ul>
 
