@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>도서 정보 열람</title>
+
+        <style>
+
+        /*도서 정보*/
+        #first{
+            margin-left: 55px;
+        }
+
+        table{
+            border: 0px;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        td{
+            width: 150px;
+        }
+
+        p{
+            font-size: 20px;
+            text-align: left;
+        }
+
+        #bookInfo{
+            border: 0px ;
+            text-align: center;
+            margin-left: 50px;
+            height: 150px;
+        }
+
+        #book_cover{
+            width: 250px;
+            height: 300px;
+        }
+
+        #bookIndex{
+            height: 150px;
+        }
+
+        #writerInfo{
+            height: 150px;
+        }
+
+
+        /*도서 리뷰*/
+        #btn_bookInfo_modify{
+            width: 120px;
+            height: 50px;
+            background-color: yellow;
+        }
+
+        .bookreview_box  {
+            border-collapse:collapse;
+            border-spacing:0;
+            margin: auto;
+            width: 60%;
+            height: 225px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .bookreview_box td{
+            border-color:black;
+            border-style:solid;
+            border-width:1px;
+            padding:10px 5px;
+            word-break:normal;
+        }
+        .bookreview_box th{
+            border-color:black;
+            border-style:solid;
+            border-width:1px;
+        }
+        .bookreview_detail_btn{
+            float: right;
+        }        
+
+
+        </style>
+    </head>
+    <body>
+        
+        <!--도서 정보-->
+        <div id="first">
+            | &nbsp; 카테고리 &nbsp;  |  &nbsp; 수준  &nbsp;  |  &nbsp;  언어  &nbsp;  |
+        </div>
+
+        <div id="bookInfo">
+            <table>
+                <tr>
+                    <th rowspan="9"> <img id="book_cover" src="./img/book_cover.PNG"> </th>
+                    <td>ISBN</td>
+                </tr>
+
+                <tr>
+                    <td>제목</td>
+                </tr>
+
+                <tr>
+                    <td>저자</td>
+                </tr>
+
+                <tr>
+                    <td>출판사</td>
+                </tr>
+
+                <tr>
+                    <td>출판 날짜</td>
+                </tr>
+
+                <!--
+                <tr>
+                    <td>카테고리</td>
+                </tr>
+
+                <tr>
+                    <td>레벨</td>
+                </tr>
+
+                <tr>
+                    <td>언어</td>
+                </tr>
+
+                -->
+
+                <tr>
+                    <td> <img src="./img/search_star.PNG"> 평점</td>
+                </tr>
+            </table>
+
+            <hr>
+
+            <p>[책소개]</p>
+            <div id="bookInfo"></div>
+
+            <hr>
+
+            <p>[목차]</p>
+            <div id="bookIndex"></div>
+
+            <hr>
+
+            <p>[저자 소개]</p>
+            <div id="writerInfo"></div>
+
+           <hr>
+
+           <br><br>
+
+
+           <!--도서 리뷰-->
+           <div>
+               <table class="bookreview_box">
+                   <tbody>
+                       <tr>
+                         <th>
+                           <button class="bookreview_detail_btn">상세보기</button>
+                         </th>
+                       </tr>
+                       <tr>
+                           <td>☆☆☆☆☆</td>
+                       </tr>
+                       <tr>
+                           <td>난이도</td>
+                       </tr>
+                       <tr>
+                           <td>키워드</td>
+                       </tr>
+                       <tr>
+                           <td>한줄평</td>
+                       </tr>
+                   </tbody>
+               </table>
+           </div>
+           <div>
+               <table class="bookreview_box">
+                   <tbody>
+                       <tr>
+                       <th>
+                           <button class="bookreview_detail_btn">상세보기</button>
+                       </th>
+                       </tr>
+                       <tr>
+                           <td>☆☆☆☆☆</td>
+                       </tr>
+                       <tr>
+                           <td>난이도</td>
+                       </tr>
+                       <tr>
+                           <td>키워드</td>
+                       </tr>
+                       <tr>
+                           <td>한줄평</td>
+                       </tr>
+                   </tbody>
+               </table>
+           </div>
+           <br>
+           <br>
+       </div>
+        </div>
+        
+    </body>
+</html>
