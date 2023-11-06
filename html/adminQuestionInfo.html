@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>admin - questionInfo</title>
+    
+        <style>
+            table {
+                border : 1px solid;
+                border-collapse: collapse;
+                width: 1000px;
+                text-align: center;
+            }
+
+            tr {
+                height: 40px;
+                border: 1px solid;
+            }
+
+            th {
+                width: 100px;
+                background-color: antiquewhite;
+            }
+
+            td {
+                border : 1px solid;
+                width: 500px;
+
+            }
+
+            .commentBox {
+                padding-top: 100px;
+            }
+
+            .commentTb th {
+                border : 1px solid;
+            }
+
+            .commentTb :first-child {
+                width: 100px;
+            }
+
+            .commentTb :last-child {
+                width: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <div>
+                <h3> &lt; 질문 글 보기 &gt;</h3>
+                <table>
+                    <tr>
+                        <th>글 유형</th>
+                        <td>type1</td>
+                    </tr>
+                    <tr>
+                        <th>제목</th>
+                        <td>비전공자를 위한 책 추천</td>
+                    </tr>
+                    <tr>
+                        <th>작성자</th>
+                        <td>min02</td>
+                    </tr>
+                    <tr>
+                        <th>작성일</th>
+                        <td>2022-10-10</td>
+                    </tr>
+                    <tr>
+                        <th>조회수</th>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <th>내용</th>
+                        <td>비전공자를 위한 책이 있을까요? 전공자가 아니라도 쉽게 이해할 수 있는 책이면 좋겠습니다.</td>
+                    </tr>
+                </table>
+                <br>
+                <button type="button">삭제</button>
+                <button type="button">목록</button>
+            </div>
+
+            <div class="commentBox">
+                <h3> &lt; 댓글 보기 &gt;</h3>
+                <table class="commentTb">
+                    <tr>
+                        <th>닉네임</th>
+                        <th>내용</th>
+                        <th>삭제</th>
+                    </tr>
+                    <tr>
+                        <td>dev</td>
+                        <td>'비전공자를 위한 이해할 수 있는 IT 지식'을 추천합니다. 실무에 가장 가깝고 쉽게 쓰인 책이라 도움이 될 것 같아요.</td>
+                        <td><button type="button">삭제</button></td>
+                    </tr>
+                    <tr>
+                        <td>sun11</td>
+                        <td>'1일 1로그 100일 완성 IT 지식'을 추천해요. IT 전반에 대한 지식을 다뤄 도움이 많이 될 것 같아요.</td>
+                        <td><button type="button">삭제</button></td>
+                    </tr>
+                </table>
+            </div>
+        </center>
+    </body>
+    </html>
