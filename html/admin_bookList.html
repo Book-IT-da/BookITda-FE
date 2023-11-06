@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>관리자 - 도서 리스트</title>
+
+        <style>
+            table{
+                border: 1px solid;
+                border-collapse: collapse;
+                text-align: center;
+            }
+
+            th{
+                width: 200px;
+            }
+
+            tr{
+                height: 40px;
+                border: 1px solid;
+            }
+
+            #first{
+                background-color: antiquewhite;
+            }
+
+            .number{
+                width: 50px
+            }
+
+            .endButton{
+                height: 50px;
+                width: 100px;
+            }
+
+    
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <button>도서</button>
+            <button>회원</button>
+            <button>리뷰</button>
+        </div>
+        
+        <br>
+
+        <center>
+            <h3> &lt; 도서 리스트 &gt;</h3>
+
+            <table>
+                <tr id="first">
+                    <th class="number">no.</th>
+                    <th>제목</th>
+                    <th>저자</th>
+                    <th>출판사</th>
+                    <th>출판날짜</th>
+                </tr>
+                <tr>
+                    <td class="number">1</td>
+                    <td>JAVA 마스터</td>
+                    <td>송미영</td>
+                    <td>한빛아카데미</td>
+                    <td>2023.01.01</td>
+                </tr>
+                <tr>
+                    <td class="number">2</td>
+                    <td>Power JAVA</td>
+                    <td>천인국,하상호</td>
+                    <td>인피니티북스</td>
+                    <td>2014.10.22</td>
+                </tr>
+                <tr>
+                    <td class="number">3</td>
+                    <td>Power JAVA</td>
+                    <td>천인국</td>
+                    <td>인피니티북스</td>
+                    <td>2022.02.25</td>
+                </tr>
+            </table>
+            <br>
+
+            <button type="button" class="endButton">도서 추가</button>
+            <button type="button" class="endButton">카테고리</button>
+
+        </center>
+        
+        
+        
+    </body>
+</html>
