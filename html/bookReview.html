@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <link>
+    <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/menu.css" type="text/css">
         <title> 도서 리뷰 </title>
         <style>     
             li a {
@@ -13,15 +14,6 @@
             #logo {
                 margin: 25px 30px;
                 text-align: center;
-            }
-            #menu1 {
-                height: 30px;
-                text-align: center;
-                padding-top: 10px;
-                border: solid 1px #000000; 
-            }
-            #menu1 li {
-                display: inline;
             }
             #search_input {
                 font-size: 16px;
@@ -35,14 +27,6 @@
                 background: #1b5ac2;
                 outline: none;
                 color: #ffffff;
-            }
-            .notSelectedPage {
-                margin: 0 30px 0 30px;
-            }
-            .selectedPage {
-                background-color: rgb(198, 218, 218);
-                margin: 0 30px 0 30px;   
-                font-weight: bold;
             }
             .book_box  {
                 border-collapse:collapse;
@@ -107,9 +91,11 @@
                 <ul id="menu1">
                     <li class="notSelectedPage"><a>도서 검색</a></li>
                     <li>|</li>
+                    <li class="notSelectedPage"><a>도서 추천</a></li>
+                    <li>|</li>
                     <li class="selectedPage"><a href="./bookReview.html">도서 리뷰</a></li>
                     <li>|</li>
-                    <li class="notSelectedPage"><a> Q&A </a></li>
+                    <li class="notSelectedPage"><a> Q&A &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
                 </ul>
             </div>    
         </nav>
