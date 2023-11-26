@@ -3,24 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/menu.css" type="text/css">
+    <link rel="stylesheet" href="../css/user_menu.css">
     <title>Q&A 게시판</title>
     <style>
+        #logo {
+                margin: 25px 30px;
+                text-align: center;
+        }
         li {
             list-style: none;
-        }
-        #menu {
-            margin-top: 30px;
-            width: 1000px;
-            height: 50px;
-            outline: 1px dotted black;
-            background-color: gray;
-        }
-        #menu ui li {
-            float: left;
-            width: 25%;
-            height: 100%;
-            line-height: 50px;
-            text-align: center;
         }
         form {
             margin-top: 50px;
@@ -43,17 +35,34 @@
     </style>
 </head>
 <body>
+    <header>
+        <div>
+            <ul class="user_menu">
+                <li><a href="mypage.html">마이페이지</a></li>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="signup.html">회원가입</a></li>
+            </ul>
+        </div>
+        <div id="logo">
+            <a>책it다</a>
+        </div>
+    </header>
+    <nav>
+        <div>
+            <ul id="menu1">
+                <li class="notSelectedPage"><a>도서 검색</a></li>
+                <li>|</li>
+                <li class="notSelectedPage"><a>도서 추천</a></li>
+                <li>|</li>
+                <li class="selectedPage"><a href="./bookReview.html">도서 리뷰</a></li>
+                <li>|</li>
+                <li class="notSelectedPage"><a> Q&A &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
+            </ul>
+        </div>    
+    </nav>
     <center>
         <h1>Q&A 게시판</h1>
         <hr>
-        <div id="menu">
-            <ui>
-                <li><a href="#"><span>전체</span></a></li>
-                <li><a href="#"><span>유형1</span></a></li>
-                <li><a href="#"><span>유형2</span></a></li>
-                <li><a href="#"><span>유형3</span></a></li>
-            </ui>
-        </div>
         <!-- <button type="button" onclick="" id="btn">글쓰기</button> -->
         <form action="">
             <label for="">
